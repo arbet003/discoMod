@@ -1,0 +1,28 @@
+Package: discoMod
+Type: Package
+Title: Identifying differentially co-expressed modules between two groups
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Jaron", "Arbet", email = "jaron.arbet@gmail.com", role="cre"),
+  person("Yaxu","Zhuang",role="aut"))
+Description: Given gene expression (or other 'omics features) measured on two 
+    phenotype groups, model-based clustering methods are used to identify 
+    "modules" (sub-networks of correlated genes) separately within each group. Various 
+    tests are included for assessing whether the correlation structure within a module 
+    differs between the two groups. P-values are calculated using permutations.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/arbet003/discoMod
+BugReports: https://github.com/arbet003/discoMod/issues
+Imports: 
+    WGCNA,
+    foreach,
+    doSNOW,
+    multtest,
+    mclust,
+    doParallel,
+    parallel,
+    ggcorrplot,
+    ggpubr
+RoxygenNote: 7.1.1
