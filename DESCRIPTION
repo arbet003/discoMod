@@ -15,7 +15,13 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/arbet003/discoMod
 BugReports: https://github.com/arbet003/discoMod/issues
+biocViews:
 Imports: 
+    multtest, 
+    impute, 
+    preprocessCore, 
+    GO.db, 
+    AnnotationDbi,
     WGCNA,
     foreach,
     doSNOW,
