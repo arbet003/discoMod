@@ -38,3 +38,9 @@ For a tutorial, see the example near the end of the following help page:
 library(discoMod)
 ?test_modules
 ```
+
+## Reference
+
+When citing the discoMod R package, please use the following:
+
+Arbet, J., Zhuang, Y., Litkowski, E., Saba, L., & Kechris, K. (2021). Comparing Statistical Tests for Differential Network Analysis of Gene Modules. Frontiers in genetics, 12, 748.
